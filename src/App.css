@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-image: url(./background-rosa.png);
+  background-image: url(./background-rosa-04opc.png);
+  
 
 }
 
@@ -26,8 +27,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  opacity: 1;
 }
-
+header{
+  opacity: 1;
+}
 .App-link {
   color: #61dafb;
 }
