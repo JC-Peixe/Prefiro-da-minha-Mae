@@ -1,10 +1,9 @@
 import fotoLogo from './assets/img/foto-front-page-2.png';
 import './App.css';
 
-function App() {
-  return (
-    
-    <div className="App">
+export default function Frontpage(){
+    return(
+        <div className="App">
         <div className='teste'>
       <header className="App-header">
         <img src={fotoLogo} className="App-logo" alt="logo" />
@@ -15,7 +14,5 @@ function App() {
         </div>
 
     </div>
-  );
+    )
 }
-
-export default App;
