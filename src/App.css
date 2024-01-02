@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-image: url(./assets/img/background-rosa-04opc.png);
   
 
 }
@@ -20,10 +19,11 @@
   opacity: 2;
   font-family: 'Indie Flower', cursive;
   /* font-family: 'Roboto', sans-serif; */
-  min-height: 100vh;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
